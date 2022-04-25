@@ -9,4 +9,4 @@ integer or string and expressions will be mathematical operators.
 6
 
 Answer : Values = &#39 , hello&#39 , -87.8 , 6
-         Expression = - , / , +
+         Expression = * , - , / , +
