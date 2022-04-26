@@ -1,0 +1,29 @@
+1. Why are functions advantageous to have in your programs?
+Answer : It will avoid redundancy of code and are time efficient.
+2. When does the code in a function run: when it's specified or when it's called?
+Answer : When its Called
+3. What statement creates a function?
+Answer : def keyword defines the function which endwith start and end Parenthesis. 
+4. What is the difference between a function and a function call?
+Answer : Function is piece of code where the code is written to avoid the redundancy of code.
+Function call is calling the function to execute the piece of code.
+5. How many global scopes are there in a Python program? How many local scopes?
+Answer : There is only one global scope in a python program.There can be any number of local scopes in python program.
+6. What happens to variables in a local scope when the function call returns?
+Answer : The variables scopes ends after function call returns.
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+Answer : Return value is value which is return at end of function.When the operation on operand ends and at the end it passes final value to the variable there we uses return value.
+8. If a function does not have a return statement, what is the return value of a call to that function?
+Answer : None
+9. How do you make a function variable refer to the global variable?
+Answer : using global keyword.
+10. What is the data type of None?
+Answer : NoneType
+11. What does the sentence import areallyourpetsnamederic do?
+Answer : Import areaallyourpetsnamederic module
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+Answer : spam.bacon()
+13. What can you do to save a programme from crashing if it encounters an error?
+Answer : We can use try except block if any erro occurs then it can move to except block.
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+Answer : try clause is used to execute the code if any error occurs in try block then the code is saved and moved directly to the except block.
