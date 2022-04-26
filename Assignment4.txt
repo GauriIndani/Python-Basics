@@ -1,0 +1,38 @@
+1. What exactly is []?
+Answer : This is list ,which contains heterogenous data.
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Answer : spam.insert('hello',2)
+Let's pretend the spam includes the list ['a','b','c','d'] for the next three queries.
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Answer : 3
+4. What is the value of spam[-1]?
+Answer : 'd'
+5. What is the value of spam[:2]?
+Answer : ['a','b','c']
+Let&#39;s pretend bacon has the list [3.14,'cat', 11, 'cat', True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+Answer : 1
+7. How does bacon.append(99) change the look of the list value in bacon?
+Answer : [3.14,'cat',11,'cat',True,99]
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Answer : [3.14,11,'cat',True,99]
+9. What are the list concatenation and list replication operators?
+Answer : merge two lists is list concatenation and replicate group of bits n times is list replication.
+10. What is difference between the list methods append() and insert()?
+Answer : Append() with add the element at the end of list and insert with add element at particular position o the list.
+11. What are the two methods for removing items from a list?
+Answer : pop(),remove()
+12. Describe how list values and string values are identical.
+Answer : 
+13. What's the difference between tuples and lists?
+Answer : Lists are mutable and Tuples are immutable.
+14. How do you type a tuple value that only contains the integer 42?
+Answer : Trailing comma(42,) is mandatory.
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Answer : type conversion using list() and tuple() methods
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they
+contain?
+Answer : Integer,String tuples,lists,dictinary
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Answer : It will give reference of memory to the variable in copy.copy() and in copy.deepcopy() gives memory assignment to the variable.
